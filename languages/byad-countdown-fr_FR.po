@@ -1,0 +1,176 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Before You Are Dead Countdown\n"
+"POT-Creation-Date: 2014-11-05 16:25+0100\n"
+"PO-Revision-Date: 2014-11-05 16:25+0100\n"
+"Last-Translator: David THOMAS <anou@smol.org>\n"
+"Language-Team: David Thomas <anou@smol.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: byad-countdown.php:80
+msgid "Settings"
+msgstr "Paramètres"
+
+#: byad-countdown.php:92 byad-countdown_widget.php:23
+#: byad-countdown_widget.php:105
+msgid "The Final Countdown"
+msgstr "Vos derniers instants"
+
+#: byad-countdown_widget.php:10
+msgid "Before You Are Dead Countdown Widget"
+msgstr "Widget Compte à rebours Before You Are Dead"
+
+#: byad-countdown_widget.php:13
+msgid ""
+"Widget for displaying a countdown (Years (opt.), Days, Hours, Minutes, "
+"Seconds)"
+msgstr ""
+"Widget pour afficher un compte à rebours (Années (opt.), Jours, Heures, "
+"Minutes, Secondes)"
+
+#: byad-countdown_widget.php:34 byad-settings.php:87
+msgid "You are dead now!"
+msgstr "Maintenant vous êtes mort !"
+
+#: byad-countdown_widget.php:80
+msgid "Years"
+msgstr "Années"
+
+#: byad-countdown_widget.php:81
+msgid "Months"
+msgstr "Mois"
+
+#: byad-countdown_widget.php:82
+msgid "Days"
+msgstr "Jours"
+
+#: byad-countdown_widget.php:83
+msgid "Hours"
+msgstr "Heures"
+
+#: byad-countdown_widget.php:84
+msgid "Minutes"
+msgstr "Minutes"
+
+#: byad-countdown_widget.php:85
+msgid "Seconds"
+msgstr "Secondes"
+
+#: byad-countdown_widget.php:110
+msgid "Title"
+msgstr "Titre"
+
+#: byad-settings.php:29
+msgid "BYAD Countdown Settings"
+msgstr "Paramètres du Compte à Rebours BYAD"
+
+#: byad-settings.php:37
+msgid "Final Date"
+msgstr "Date finale"
+
+#: byad-settings.php:43
+msgid ""
+"Click and select the countdown end date. If empty, you are dead tomorrow "
+"after midnight."
+msgstr ""
+"Cliquez et sélectionnez la date de fin du compte à rebours. Si laissé vide, "
+"vous serez mort demain après minuit."
+
+#: byad-settings.php:49
+msgid "Date format"
+msgstr "Format de date"
+
+#: byad-settings.php:55
+msgid ""
+"Please choose a date format. It must match the format of Final date field!"
+msgstr ""
+"Merci de choisir un format de date. Il doit être identique au format du "
+"champ Date finale !"
+
+#: byad-settings.php:57
+msgid "day - month - Year (d/m/Y)"
+msgstr "jour - mois - Année (d/m/Y)"
+
+#: byad-settings.php:58
+msgid "month - day - Year (m/d/Y)"
+msgstr "mois - jour - Année (m/d/Y)"
+
+#: byad-settings.php:59
+msgid "Year - month - day (Y/m/d)"
+msgstr "Année - mois - jour (Y/m/d)"
+
+#: byad-settings.php:67
+msgid "Time"
+msgstr "Heure"
+
+#: byad-settings.php:73
+msgid ""
+"Optionally you can specify at what time (HH:MM) you'll die on your Final "
+"date (leave empty to die at midnight at the end of the day)"
+msgstr ""
+"Vous pouvez optionnellement spécifier l'heure (HH:MM) de votre mort (laissez "
+"vide pour mourir à minuit le jour choisi)"
+
+#: byad-settings.php:80
+msgid "After countdown string"
+msgstr "Vos derniers mots"
+
+#: byad-settings.php:86
+msgid ""
+"Fill with your last words (displayed at the countdown's end. I promise)."
+msgstr ""
+"Renseignez vos derniers mots (ils seront affichés à la fin du compte à "
+"rebours. Promis)."
+
+#: byad-settings.php:93
+msgid "Display years"
+msgstr "Afficher les années"
+
+#: byad-settings.php:99
+msgid "Check this box if you want to display Years."
+msgstr "Cocher cette case si vous voulez afficher les années"
+
+#: byad-settings.php:107
+msgid ""
+"Here you can configure some settings for the BYAD Countdown. But if you're "
+"already dead, don't bother."
+msgstr ""
+"Ci-dessous, vous pouvez configurer quelques réglages pour le Compte à "
+"rebours BYAD. Si vous êtes déjà mort, ne vous tracassez pas, laissez vide."
+
+#: byad-settings.php:216
+msgid "Before You Are Dead Countdown Settings"
+msgstr "Paramètres Compte à rebours Before You Are Dead"
+
+#: byad-settings.php:217
+msgid "BYAD Countdown"
+msgstr "Compte à rebours BYAD"
+
+#: byad-settings.php:230
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Vous n'avez pas les droits suffisants pour accéder à cette page."
+
+#: templates/byad-settings-tpl.php:2
+msgid "Before You Are Dead Countdown"
+msgstr "Compte à rebours Before You Are Dead"
+
+#~ msgid ""
+#~ "Here you can configure the Before You Are Dead (BYAD) Countdown Plugin."
+#~ msgstr ""
+#~ "Espace de configuration pour le plugin Compte à rebours Before You Are "
+#~ "Dead (BYAD)."
+
+#, fuzzy
+#~ msgid "Your are dead now!"
+#~ msgstr "Maintenant vous êtes mort !"

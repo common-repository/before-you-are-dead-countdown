@@ -1,0 +1,73 @@
+=== Before You Are Dead Countdown HELP Code file ===
+Contributors: anou
+
+
+-----> NOTA BENE: All code below can go in your theme - function.php - file. <-----
+
+
+/*
+ * ==== LOCALIZATION ==== *
+ */
+
+== Date picker in English ==
+
+function my_date_picker_lg($params){
+
+  //Change language code to localize the datepicker
+  $params['byadRegional'] = 'en';
+  //you can also change the datepicker icon
+  //$params['byadIcon'] = 'http://absolute-custom-path/my-futur-death-calendar.png@';
+  
+  return $params;
+}
+add_filter('byad_date_data','my_date_picker_lg');
+
+
+/*
+ * Since BYAD Countdown 1.5, you just need to implement the add_filter() function above (my_date_picker_lg())
+ *
+ *
+ * == Before version 1.5 ==
+ *
+ * If you want the date picker in another language then English or French (default)
+ *
+ * In addition with the my_date_picker_lg() function above
+ * You must use the add_action() below to enqueue your JS datepicker file in your own language.
+ */
+
+== Custom Language JS file for Datepicker (before 1.5) ==
+/*
+ * custom language for byad-countdown datepicker
+ */
+
+function my_own_js_language() {
+
+  wp_enqueue_script( 'datepicker-LANG', PATH-TO-JS-FILE, array('jquery', 'jquery-ui-core', 'jquery-ui-datepicker') );
+
+}
+add_action('byad_datepicker_lang', 'my_own_js_language');
+
+
+
+==== Custom CSS file ====
+/*
+ * custom css for byad-countdown plugin
+ */
+
+function my_own_css () {
+
+  wp_register_style( 'custom_plugin_css', get_bloginfo('stylesheet_directory') . '/my-custom-css.css' );
+  wp_enqueue_style( 'custom_plugin_css' );
+
+}
+add_action('byad_stylesheet', 'my_own_css');
+
+
+== Short code == 
+[byad_countdown title="Your-custom-title"]
+
+the title attribute is optional. title="" will output the countdown with no title.
+
+
+
+

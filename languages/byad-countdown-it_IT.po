@@ -1,0 +1,166 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Countdown by SMOL\n"
+"POT-Creation-Date: 2014-11-05 16:21+0100\n"
+"PO-Revision-Date: 2014-11-05 16:21+0100\n"
+"Last-Translator: David THOMAS <anou@smol.org>\n"
+"Language-Team: SMOL <anou@smol.org>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: byad-countdown.php:80
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: byad-countdown.php:92 byad-countdown_widget.php:23
+#: byad-countdown_widget.php:105
+msgid "The Final Countdown"
+msgstr "Conto alla rovescia finale"
+
+#: byad-countdown_widget.php:10
+msgid "Before You Are Dead Countdown Widget"
+msgstr "Before You Are Dead Conto alla rovescia Widget"
+
+#: byad-countdown_widget.php:13
+msgid ""
+"Widget for displaying a countdown (Years (opt.), Days, Hours, Minutes, "
+"Seconds)"
+msgstr ""
+"Widget per la visualizzazione di un conto alla rovescia (Anni (opz.), "
+"Giorni, Ore, Minuti, Secondi)"
+
+#: byad-countdown_widget.php:34 byad-settings.php:87
+msgid "You are dead now!"
+msgstr "Ora sei morto!"
+
+#: byad-countdown_widget.php:80
+msgid "Years"
+msgstr "Anni"
+
+#: byad-countdown_widget.php:81
+msgid "Months"
+msgstr "Mesi"
+
+#: byad-countdown_widget.php:82
+msgid "Days"
+msgstr "Giorni"
+
+#: byad-countdown_widget.php:83
+msgid "Hours"
+msgstr "Ore"
+
+#: byad-countdown_widget.php:84
+msgid "Minutes"
+msgstr "Minuti"
+
+#: byad-countdown_widget.php:85
+msgid "Seconds"
+msgstr "Secondi"
+
+#: byad-countdown_widget.php:110
+msgid "Title"
+msgstr "Titolo"
+
+#: byad-settings.php:29
+msgid "BYAD Countdown Settings"
+msgstr "BYAD Conto alla rovescia Impostazioni"
+
+#: byad-settings.php:37
+msgid "Final Date"
+msgstr "Data Finale"
+
+#: byad-settings.php:43
+msgid ""
+"Click and select the countdown end date. If empty, you are dead tomorrow "
+"after midnight."
+msgstr ""
+"Clicca per selezionare la data finale del conto alla rovescia. Se è vuoto, "
+"sei morto domani, dopo mezzanotte."
+
+#: byad-settings.php:49
+msgid "Date format"
+msgstr "Formato data"
+
+#: byad-settings.php:55
+msgid ""
+"Please choose a date format. It must match the format of Final date field!"
+msgstr ""
+"Seleziona un formato di data. Deve corrispondere al formato del campo Data "
+"Finale!"
+
+#: byad-settings.php:57
+msgid "day - month - Year (d/m/Y)"
+msgstr "giorno - mese - Anno (d/m/Y)"
+
+#: byad-settings.php:58
+msgid "month - day - Year (m/d/Y)"
+msgstr "mese - giorno - Anno (m/d/Y)"
+
+#: byad-settings.php:59
+msgid "Year - month - day (Y/m/d)"
+msgstr "Anno - mese - giorno (Y/m/d)"
+
+#: byad-settings.php:67
+msgid "Time"
+msgstr "Ora"
+
+#: byad-settings.php:73
+msgid ""
+"Optionally you can specify at what time (HH:MM) you'll die on your Final "
+"date (leave empty to die at midnight at the end of the day)"
+msgstr ""
+"Potete specificare l'ora (HH:MM) della vostra morte (lasciare vuoto per "
+"morire a mezzanotte il giorno scelto)"
+
+#: byad-settings.php:80
+msgid "After countdown string"
+msgstr "Dopo il conto alla rovescia stringa"
+
+#: byad-settings.php:86
+msgid ""
+"Fill with your last words (displayed at the countdown's end. I promise)."
+msgstr ""
+"Inserisci il campo con le tue ultime parole (visualizzate alla fine del "
+"conto alla rovescia. Prometto)."
+
+#: byad-settings.php:93
+msgid "Display years"
+msgstr "Mostra anni"
+
+#: byad-settings.php:99
+msgid "Check this box if you want to display Years."
+msgstr "Spunta questa casella se vuoi visualizzare gli Anni."
+
+#: byad-settings.php:107
+msgid ""
+"Here you can configure some settings for the BYAD Countdown. But if you're "
+"already dead, don't bother."
+msgstr ""
+"Qui si può configurare alcune impostazioni per il BYAD Conto alla rovescia. "
+"Ma se sei già morto, non preoccuparsi."
+
+#: byad-settings.php:216
+msgid "Before You Are Dead Countdown Settings"
+msgstr "Before You Are Dead Countdown Impostazioni"
+
+#: byad-settings.php:217
+msgid "BYAD Countdown"
+msgstr "BYAD Conto alla rovescia"
+
+#: byad-settings.php:230
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Non avete autorizzazioni sufficienti per accedere a questa pagina."
+
+#: templates/byad-settings-tpl.php:2
+msgid "Before You Are Dead Countdown"
+msgstr "Before You Are Dead Conto alla rovescia"
